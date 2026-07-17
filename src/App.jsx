@@ -61,9 +61,9 @@ class App extends Component {
 
     return (
       <>
-        <h1 style={{ fontSize: '25px', marginBottom: '10px'}}>Пошукова книга</h1>
+        <h1 style={{ fontSize: '25px', color: '#000000', marginBottom: '10px'}}>Пошукова книга</h1>
         <ContactForm onSubmit={this.addContact} />
-        <h2 style={{ fontSize: '20px', marginBottom: '10px'}}>Контакти</h2>
+        <h2 style={{ fontSize: '20px', color: '#000000', marginBottom: '10px'}}>Контакти</h2>
         <Filter onChange={this.filterChange} />
         <ContactList
           contacts={contacts}
