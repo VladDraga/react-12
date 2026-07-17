@@ -9,7 +9,7 @@ export const Form = styled.form`
   padding: 10px;
     border: 2px solid #5a5353;
     border-radius: 15px;
-    color: #ffffff;
+    color: #000000;
     margin: 0 auto;
     margin-bottom: 10px;`;
 
@@ -17,6 +17,6 @@ export const Label = styled.label`
     display: flex;
     flex-direction: column;
     gap: 5px;
-    color: #ffffff;
+    color: #000000;
     font-size: 14px;
 `

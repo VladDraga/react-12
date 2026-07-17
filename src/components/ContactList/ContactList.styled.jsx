@@ -4,7 +4,7 @@ export const Contact = styled.li`
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #ffffff;
+  color: #000000;
   border: 2px solid #5a5353;
   border-radius: 5px;
   padding: 5px;
@@ -15,5 +15,5 @@ export const Contact = styled.li`
 
 export const Text = styled.p`
     margin: 0;
-    color: #ffffff;
+    color: #000000;
 `
